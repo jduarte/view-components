@@ -64,17 +64,4 @@ class ViewComponentsTest < ActiveSupport::TestCase
     }
     assert_equal SimpleBoxPanel.new.render_args, sbp_args
   end
-
-  # Helpers
-
-  # test 'General helper' do
-  #   assert_equal box_panel(bp), '<div class="box-panel">
-  #     <div class="box-panel--head">
-  #       <h1>Head</h1>
-  #     </div>
-  #     <div class="box-panel--body">
-  #       <p>Body</p>
-  #     </div>
-  #   </div>'
-  # end
 end
